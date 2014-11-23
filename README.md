@@ -15,3 +15,15 @@ Motivation
     [Vundle](https://github.com/gmarik/Vundle.vim),
     [Neobundle](https://github.com/Shougo/neobundle.vim),
     or [Vim-Plug](https://github.com/junegunn/vim-plug).
+
+
+Usage
+-----
+
+Add the following lines to your `~/.vimrc`.
+
+```vim
+autocmd BufRead,BufNewFile *.dts,*.dtsi set filetype=dts
+```
+
+Then, restart vim to apply the changes.
